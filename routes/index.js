@@ -1,6 +1,6 @@
 const router = require('express').Router();
-const reviewModel = require('../models/review')
 const dbConnection = require('../config/db')
+const reviewModel = require('../models/review')
 const bookingModel = require('../models/booking');
 const { default: mongoose } = require('mongoose');
 const { body, validationResult } = require('express-validator');
@@ -8,7 +8,7 @@ const { render } = require('ejs');
 const path = require('path')
 
 
-router.get('/voyagevista',(req,res)=>{
+router.get('/',(req,res)=>{
     res.render('index',{
         
     })
