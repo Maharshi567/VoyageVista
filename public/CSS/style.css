@@ -44,7 +44,7 @@
 #h1{
     font-size: 1.5em;
     font-weight: 100;
-    font-family:cursive;
+    font-family:monospace;
     color:red;
     
 
@@ -92,7 +92,7 @@ nav {
 }
 
 .UL1{
-  font-family: cursive;
+  font-family:monospace;
   font-size: 1em;
   margin: 1em;
 }
@@ -135,7 +135,7 @@ nav {
 }
 
 .UL1{
-  font-family: cursive;
+  font-family:monospace;
   font-size: 1.2em;
   margin: 1em;
 }
@@ -144,7 +144,7 @@ nav {
   position: relative;
   color:dodgerblue;
   font-size: 3em;
-  font-family:cursive;
+ font-family:monospace;
    margin-top: 3.5em;
   margin-left: 5em;
 }
@@ -169,7 +169,7 @@ nav {
 .A1{
   text-decoration: none;
   color:darkblue;
-  font-family:cursive;
+ font-family:monospace;
   font-weight: 300;
   font-size:1em;
   position: relative;
@@ -194,7 +194,7 @@ nav {
 
 
 .A2{
-font-family: cursive;
+font-family:monospace;
 border: 2px solid dodgerblue;
 text-decoration: none;
 text-align: center;
@@ -212,7 +212,7 @@ margin: 2em;
 .A3{
   width: auto;
   height: fit-content;
-  font-family:cursive;
+  font-family:monospace;
   position: relative;
  margin: 0.5em;
  margin-left: 2em;
@@ -278,7 +278,7 @@ margin: 2em;
   position:relative;
   margin-bottom: 1em;
   color: crimson;
-  font-family: cursive;
+  font-family:monospace;
   text-decoration: underline;
 
 
@@ -346,7 +346,7 @@ margin: 2em;
 width: fit-content;
 height: fit-content;
 color: red;
-font-family: cursive;
+font-family:monospace;
 margin-bottom: 1em;
 
 }
@@ -365,7 +365,7 @@ margin-bottom: 1em;
 @media only screen and (max-width:745px) {
   #Arrow{
   position:fixed;
-  top: 8.9em;
+  top: 7.2em;
   font-size: 8em;
   text-decoration: none;
 }
@@ -425,7 +425,7 @@ margin-bottom: 1em;
 
 #BookingFormHead{
     color:lightcyan;
-  font-family: cursive;
+font-family:monospace;
   margin-top: 0.5em;
   margin-bottom: 1em;
   text-decoration: underline;
@@ -466,13 +466,13 @@ margin-bottom: 1em;
 #h12,#h13,#h14,#h15,#h16,#h17,#h18,#h19{
   position: relative;
   margin-bottom: 2em;
-  font-family: cursive;
+font-family:monospace;
   font-size: 1em;
   font-weight: 500;
 }
 #Adminhead{
   font-size: 2em;
-  font-family: cursive;
+  font-family:monospace;
   text-decoration: underline;
   color:lightcyan;
    
@@ -480,7 +480,7 @@ margin-bottom: 1em;
 }
 #Contacthead{
   font-size: 2em;
-  font-family: cursive;
+  font-family:monospace;
   text-decoration: underline;
   color:dodgerblue;
    margin-top: 0.5em;
@@ -488,7 +488,7 @@ margin-bottom: 1em;
 }
 #Adminoptionshead{
    font-size: 2em;
-  font-family: cursive;
+ font-family:monospace;
   text-decoration: underline;
   color:red;
    margin-top: 0.5em;
