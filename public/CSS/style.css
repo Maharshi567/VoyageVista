@@ -44,7 +44,7 @@
 #h1{
     font-size: 1.5em;
     font-weight: 100;
-     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:red;
     
 
@@ -68,14 +68,15 @@ nav {
     height: fit-content;
     display:flex;
   flex-direction: column; 
-  margin-top: 7em;
+  margin-top: 5em;
   position: fixed ;
+  font-size: 1.4em;
 }
 .D1{
   position: relative;
   margin-top: 5em;
-  margin-left: 10em;
-  margin-right: 1em;
+  margin-left: 14em;
+  margin-right: 2em;
   width: auto;
   height: auto;
   display: flex;
@@ -84,7 +85,7 @@ nav {
   
 }
 .I2{
-  width: 25em;
+  width: 20em;
   height: auto;
   align-items: center;
   align-self: center;
@@ -92,8 +93,8 @@ nav {
 }
 
 .UL1{
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 1em;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.2em;
   margin: 1em;
 }
 
@@ -101,11 +102,11 @@ nav {
   position: absolute;
   color:dodgerblue;
   font-size: 2em;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    margin-top: 0.5em;
   margin-left: 1em;
 }
- 
+
 }
 
 @media only screen and (min-width:745px){
@@ -135,7 +136,7 @@ nav {
 }
 
 .UL1{
- font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 1.2em;
   margin: 1em;
 }
@@ -144,7 +145,7 @@ nav {
   position: relative;
   color:dodgerblue;
   font-size: 3em;
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    margin-top: 3.5em;
   margin-left: 5em;
 }
@@ -169,7 +170,7 @@ nav {
 .A1{
   text-decoration: none;
   color:darkblue;
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 300;
   font-size:1em;
   position: relative;
@@ -194,7 +195,7 @@ nav {
 
 
 .A2{
- font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 border: 2px solid dodgerblue;
 text-decoration: none;
 text-align: center;
@@ -212,7 +213,7 @@ margin: 2em;
 .A3{
   width: auto;
   height: fit-content;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   position: relative;
  margin: 0.5em;
  margin-left: 2em;
@@ -237,7 +238,7 @@ margin: 2em;
 }
 @media only screen and (max-width:600px){
  .A3{
-  font-size: 1em;
+  font-size: 1.4em;
   position: relative;
   margin-left: 0.1em;
  }
@@ -278,7 +279,7 @@ margin: 2em;
   position:relative;
   margin-bottom: 1em;
   color: crimson;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-decoration: underline;
 
 
@@ -344,7 +345,7 @@ margin: 2em;
 width: fit-content;
 height: fit-content;
 color: red;
- font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 margin-bottom: 1em;
 
 }
@@ -363,7 +364,7 @@ margin-bottom: 1em;
 @media only screen and (max-width:745px) {
   #Arrow{
   position:fixed;
-  top: 7.2em;
+  top: 8.5em;
   font-size: 8em;
   text-decoration: none;
 }
@@ -423,7 +424,7 @@ margin-bottom: 1em;
 
 #BookingFormHead{
     color:lightcyan;
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin-top: 0.5em;
   margin-bottom: 1em;
   text-decoration: underline;
@@ -464,13 +465,13 @@ margin-bottom: 1em;
 #h12,#h13,#h14,#h15,#h16,#h17,#h18,#h19{
   position: relative;
   margin-bottom: 2em;
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 1em;
   font-weight: 500;
 }
 #Adminhead{
   font-size: 2em;
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-decoration: underline;
   color:lightcyan;
    
@@ -478,15 +479,15 @@ margin-bottom: 1em;
 }
 #Contacthead{
   font-size: 2em;
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-decoration: underline;
-  color:dodgerblue;
+  color:lightcyan;
    margin-top: 0.5em;
   
 }
 #Adminoptionshead{
    font-size: 2em;
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-decoration: underline;
   color:red;
    margin-top: 0.5em;

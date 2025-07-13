@@ -1,5 +1,4 @@
 const router = require('express').Router();
-const dbConnection = require('../config/db')
 const reviewModel = require('../models/review')
 const bookingModel = require('../models/booking');
 const { default: mongoose } = require('mongoose');
@@ -14,94 +13,94 @@ router.get('/',(req,res)=>{
     })
 })
 
-router.get('/voyagevista/Camping',(req,res)=>{
+router.get('/Camping',(req,res)=>{
     res.render('camping',{
         
     })
 })
 
-router.get('/voyagevista/CyclingTours',(req,res)=>{
+router.get('/CyclingTours',(req,res)=>{
     res.render('cyclingtours',{
         
     })
 })
 
-router.get('/voyagevista/ScubaDiving',(req,res)=>{
+router.get('/ScubaDiving',(req,res)=>{
     res.render('scubadiving',{
         
     })
 })
 
-router.get('/voyagevista/Surfing',(req,res)=>{
+router.get('/Surfing',(req,res)=>{
     res.render('surfing',{
         
     })
 })
 
-router.get('/voyagevista/Canoeing',(req,res)=>{
+router.get('/Canoeing',(req,res)=>{
     res.render('canoeing',{
         
     })
 })
 
-router.get('/voyagevista/Ziplining',(req,res)=>{
+router.get('/Ziplining',(req,res)=>{
     res.render('ziplining',{
         
     })
 })
 
-router.get('/voyagevista/CaveExploration',(req,res)=>{
+router.get('/CaveExploration',(req,res)=>{
     res.render('caveexploration',{
         
     })
 })
 
-router.get('/voyagevista/SandBoarding',(req,res)=>{
+router.get('/SandBoarding',(req,res)=>{
     res.render('sandboarding',{
         
     })
 })
 
-router.get('/voyagevista/KiteSurfing',(req,res)=>{
+router.get('/KiteSurfing',(req,res)=>{
     res.render('kitesurfing',{
         
     })
 })
 
-router.get('/voyagevista/IceClimbing',(req,res)=>{
+router.get('/IceClimbing',(req,res)=>{
     res.render('iceclimbing',{
         
     })
 })
 
-router.get('/voyagevista/Review',(req,res)=>{
+router.get('/Review',(req,res)=>{
     res.render('Review',{
         
     })
 })
 
-router.get('/voyagevista/Booking',(req,res)=>{
+router.get('/Booking',(req,res)=>{
     res.render('booking',{
         
     })
    
 })
-router.get('/voyagevista/AdminLogin',(req,res)=>{
+router.get('/AdminLogin',(req,res)=>{
     res.render('admin',{
 
     })
 })
-router.get('/voyagevista/Contact',(req,res)=>{
+router.get('/Contact',(req,res)=>{
     res.render('contact',{
 
     })
 })
 
-router.get('/voyagevista/Download',(req,res)=>{
+router.get('/Download',(req,res)=>{
     res.download(path.join(__dirname,'contact.txt'))
 })
 
-router.post('/voyagevista/UserReview',
+router.post('/UserReview',
     
     body('username').trim().isLength({min: 2}),
     body('email').trim().isEmail().isLength({min: 11}),
@@ -142,7 +141,7 @@ router.post('/voyagevista/UserReview',
    
 })
 
-router.post('/voyagevista/Booking',
+router.post('/Booking',
 
     body('headname').trim().isLength({min: 2}),
     body('heademail').trim().isEmail().isLength({min: 11}),
@@ -180,7 +179,7 @@ router.post('/voyagevista/Booking',
 
 })
 
-router.get('/voyagevista/Allbookings',(req,res)=>{
+router.get('/Allbookings',(req,res)=>{
 bookingModel.find().then((bookings) =>{
 
     
@@ -191,7 +190,7 @@ bookingModel.find().then((bookings) =>{
 
 })
 
-router.get('/voyagevista/Allreviews',(req,res)=>{
+router.get('/Allreviews',(req,res)=>{
 reviewModel.find().then((reviews) =>{
 
     
@@ -204,7 +203,7 @@ reviewModel.find().then((reviews) =>{
 
 
 
-router.post('/voyagevista/Admin',async (req,res)=>{
+router.post('/Admin',async (req,res)=>{
     const{ adminname,password } = req.body;
     if(adminname == 'MaharshiDanidhariya'){
         if(password == 'Maharshiisgenious'){
