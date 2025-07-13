@@ -44,7 +44,7 @@
 #h1{
     font-size: 1.5em;
     font-weight: 100;
-    font-family:monospace;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:red;
     
 
@@ -92,7 +92,7 @@ nav {
 }
 
 .UL1{
-  font-family:monospace;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 1em;
   margin: 1em;
 }
@@ -135,7 +135,7 @@ nav {
 }
 
 .UL1{
-  font-family:monospace;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 1.2em;
   margin: 1em;
 }
@@ -144,7 +144,7 @@ nav {
   position: relative;
   color:dodgerblue;
   font-size: 3em;
- font-family:monospace;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    margin-top: 3.5em;
   margin-left: 5em;
 }
@@ -169,7 +169,7 @@ nav {
 .A1{
   text-decoration: none;
   color:darkblue;
- font-family:monospace;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: 300;
   font-size:1em;
   position: relative;
@@ -194,7 +194,7 @@ nav {
 
 
 .A2{
-font-family:monospace;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 border: 2px solid dodgerblue;
 text-decoration: none;
 text-align: center;
@@ -212,7 +212,7 @@ margin: 2em;
 .A3{
   width: auto;
   height: fit-content;
-  font-family:monospace;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   position: relative;
  margin: 0.5em;
  margin-left: 2em;
@@ -278,7 +278,7 @@ margin: 2em;
   position:relative;
   margin-bottom: 1em;
   color: crimson;
-  font-family:monospace;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-decoration: underline;
 
 
@@ -317,9 +317,7 @@ margin: 2em;
   background-image: url("https://cdn3.geckoandfly.com/wp-content/uploads/2017/07/travel-quotes-adventure-01.jpg");
   background-size:cover;
 }
- /* https://c1.wallpaperflare.com/preview/1015/974/530/landscape-vacation-nature-adventure.jpg */
- /* http://i.huffpost.com/gen/1866826/images/o-ADVENTURE-facebook.jpg */
- /* http://i.huffpost.com/gen/3108022/images/o-MOUNTAIN-CLIMBING-facebook.jpg */
+
 #h4,#h5,#h6,#h7,#h8,#h9{
   position: relative;
   margin-bottom: 4em;
@@ -346,7 +344,7 @@ margin: 2em;
 width: fit-content;
 height: fit-content;
 color: red;
-font-family:monospace;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 margin-bottom: 1em;
 
 }
@@ -425,7 +423,7 @@ margin-bottom: 1em;
 
 #BookingFormHead{
     color:lightcyan;
-font-family:monospace;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin-top: 0.5em;
   margin-bottom: 1em;
   text-decoration: underline;
@@ -466,13 +464,13 @@ font-family:monospace;
 #h12,#h13,#h14,#h15,#h16,#h17,#h18,#h19{
   position: relative;
   margin-bottom: 2em;
-font-family:monospace;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 1em;
   font-weight: 500;
 }
 #Adminhead{
   font-size: 2em;
-  font-family:monospace;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-decoration: underline;
   color:lightcyan;
    
@@ -480,7 +478,7 @@ font-family:monospace;
 }
 #Contacthead{
   font-size: 2em;
-  font-family:monospace;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-decoration: underline;
   color:dodgerblue;
    margin-top: 0.5em;
@@ -488,7 +486,7 @@ font-family:monospace;
 }
 #Adminoptionshead{
    font-size: 2em;
- font-family:monospace;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-decoration: underline;
   color:red;
    margin-top: 0.5em;
