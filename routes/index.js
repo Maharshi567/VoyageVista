@@ -117,7 +117,7 @@ router.post('/UserReview',
         if(!errors.isEmpty()){
             res.send("Invalid Data | Try Again | Enter username of minimum length  2 | Email should contain (@gmail.com) | Placename and sportname should be of minimum length 5 | Review should be of minimum length 10 ")
         }
-
+        res.send('Review Submitted Successfully To Our Database || Thank You')
         if(errors.isEmpty()){
              const { username, email, placename, sportname, date, review } = req.body
     
@@ -157,8 +157,9 @@ router.post('/Booking',
         console.log(errors);
 
         if(!errors.isEmpty()){
-            res.send("Invalid Data | Try Again | Enter headname of minimum length  2 | Headmail should contain (@gmail.com) | Phonenumber should be of minimum length 10 | | Placename should be of minimum length 5 | Days and Number of people should be of minimum length 1 ")
+            res.send("Invalid Data | Try Again | Enter headname of minimum length  2 | Headmail should contain (@gmail.com) | Phonenumber should be of length 10 | | Placename should be of minimum length 5 | Days and Number of people should be of minimum length 1 ")
         }
+         res.send('Your Form Has Been Successfully Submitted || We will contact you by today with your trip details || Thank You')
         if(errors.isEmpty()){
              const { headname, heademail, phonenumber, placetovisit, advancedate, days, numberofpeople } = req.body;
     await bookingModel.create({
