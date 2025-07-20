@@ -67,10 +67,10 @@ nav {
     width: fit-content;
     height: fit-content;
     display:flex;
-  flex-direction: column; 
-  margin-top: 5em;
-  position: fixed ;
-  font-size: 1.4em;
+    flex-direction: column; 
+    margin-top: 5em;
+    position: fixed ;
+    font-size: 1.4em;
 }
 .D1{
   position: relative;
@@ -246,6 +246,7 @@ margin: 2em;
 
 }
 
+
 @media only screen and (max-width: 910px){
   #d3{
   flex-direction: row;
@@ -315,7 +316,8 @@ margin: 2em;
   align-items:flex-start;
   border: 5px solid darkblue;
   border-radius: 1em;
-  background-image: url("https://cdn3.geckoandfly.com/wp-content/uploads/2017/07/travel-quotes-adventure-01.jpg");
+  background-image: url("https://curlytales.com/wp-content/uploads/2019/02/ftr.jpg");
+  /* https://cdn3.geckoandfly.com/wp-content/uploads/2017/07/travel-quotes-adventure-01.jpg */
   background-size:cover;
 }
 
